@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+main {
+    height: 100vh;
+    background-color: white;
+}
+
+.header ul {
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header li {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.header a{
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+.hero {
+    height: calc(100vh - 2rem);
+    background-color: #FBF8F1 !important;
+}
+
+.content {
+    flex: 1 1 0;
+    color: #454545;
+}
+
+.content >* {
+    padding: .5rem;
+}
+.content p {
+    margin-right: 5rem;
+    word-spacing: .6rem;
+    line-height: 1.6;
+}
+
+.sidebar {
+    flex: 0 1 300px;
+    padding: 1rem 0;
+    color: #454545;
+}
+
+.sidebar h2{
+    margin-bottom: .2rem;
+}
+
+.sidebar li {
+    padding: .5rem 0;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: #454545;
+}
+
+.sidebar li {
+    padding: .5rem 0;
+}
+
+.footer {
+    background-color: #505050;
+}
+
+.footer p{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/*
+Using a media query, we will turn on flexbox
+when the device width is 640px and above.
+Meaning that on smaller widths on phones, it will remain stacked.
+Once it hits that 640 mark it will switch to the flexbox layout.
+*/
+@media screen and (min-width: 640px){
+    .flex-container {
+        display: flex;
+    }
+}
+
+.wrapper {
+    padding: 2rem;
+    margin: auto;
+    max-width: 75rem;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.pixabay.com/photo/2015/09/09/19/56/office-932926_960_720.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}

@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.room {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lit {
+  background-color: rgb(165, 229, 245);
+  color: rgb(1, 10, 45);
+}
+
+.dark {
+  background-color: rgb(1, 10, 45);
+  color: rgb(165, 229, 245);
+}

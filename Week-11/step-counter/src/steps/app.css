@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.path {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.step{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(30, 11, 11);
+    color: white;
+}
+
+.reset{
+    width: 100px;
+    height: 30px;
+    border-color: black;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "Weather API",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Vasu Vallabh",
+  "license": "ISC"
+}
